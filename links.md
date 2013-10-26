@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: SDS Links
 ---
 Links for Data Science and Statistics for Social Impact
