@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Social Data Science
 ---
 Social Data Science & Statistics

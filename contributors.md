@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: SDS Contributors
 ---
 Currently, this is actually a solo project by
