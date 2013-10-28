@@ -6,3 +6,5 @@ title: SDS Contributors
 the next person to submit a pull request for this page!
 
 [@lmackey](https://github.com/lmackey)
+
+[@stuhlmueller](https://github.com/stuhlmueller)
