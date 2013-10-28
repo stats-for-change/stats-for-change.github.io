@@ -13,7 +13,7 @@ We are actively seeking coordination with research groups internationally, to
 ensure that a diversity of voices is included in this effort!
 
 For now, please see this copy of an
-[outline](https://workflowy.com/shared/5892468b-919e-86e0-e9a7-b020f2346d46/) of
+[outline](https://workflowy.com/shared/9efc1554-b705-1e27-05bd-a0078681945e/) of
 an initial conversation some of us had, and
 this list of [relevant links](links.html).
 
