@@ -158,3 +158,35 @@ ul.posts span {
 .post pre.terminal code {
   background-color: #333;
 }
+
+/*****************************************************************************/
+/*
+/* Modifications
+/*
+/*****************************************************************************/
+
+.site .header h1.title {
+   font-size: 1em;
+   margin-bottom: 3em;
+}
+
+h2 {
+   font-size: 1.5em;
+   margin-ibottom: 1em;
+}
+
+.site .footer {
+   margin-top: 3em;
+}
+
+.contact a {
+   margin-right: .5em;
+}
+
+div.footer .contact {
+   width: 100%;
+   text-align: center;
+}
+div.contact a {
+   margin-right: .5em;
+}
