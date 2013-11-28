@@ -165,14 +165,24 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+.site .header {
+   height: 3em;
+}
+
 .site .header h1.title {
-   font-size: 1em;
-   margin-bottom: 3em;
+   margin-bottom: 2em;
+   font-family: 'Montserrat Alternates', sans-serif;
+   float: left;
 }
 
 h2 {
    font-size: 1.5em;
-   margin-ibottom: 1em;
+   margin-bottom: 1em;
+   font-family: 'Montserrat Alternates', sans-serif;
+   margin-top: 1.5em;
+   color: #444;
+   font-size: 30px;
+   font-weight: 500;
 }
 
 .site .footer {
@@ -187,6 +197,30 @@ div.footer .contact {
    width: 100%;
    text-align: center;
 }
+
 div.contact a {
    margin-right: .5em;
+}
+
+.site p {
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   color: #333;
+}
+
+.site li {
+   margin-top: .4em
+}
+
+span.extra {
+   float: right;
+   font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a, a:visited {
+   color: #009;
+}
+
+a:hover {
+   text-decoration: none;
+   color: #009;
 }
