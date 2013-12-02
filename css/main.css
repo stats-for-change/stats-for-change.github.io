@@ -228,3 +228,14 @@ a:hover {
 .site li ul {
    margin-left: 2em;
 }
+
+div.logos {
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div.logos img {
+  margin: .5em;
+}

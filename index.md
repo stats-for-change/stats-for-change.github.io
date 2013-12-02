@@ -13,3 +13,8 @@ We are actively seeking coordination with other research groups, data scientists
 - [Conversations](/conversations.html)<br>Notes on our conversations with nonprofits and other organizations.
 - [Data Sources](/data.html)<br>A list of public data sources related to social issues.
 - [Discussion Group](https://groups.google.com/forum/#!forum/ds4-social-good)<br>Feel free to introduce yourself here!
+
+<div class="logos">
+  <a href="http://stats-for-good.stanford.edu"><img src="/images/stanford.png" alt="Stanford" style="width: 100px;"/></a>
+  <a href="http://dlab.berkeley.edu"><img src="/images/d-lab.jpg" alt="D-Lab" style="width: 100px;"/></a>
+</div>
