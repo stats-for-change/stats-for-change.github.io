@@ -1,11 +1,9 @@
 ---
 layout: default
-title: SDS Links
+title: Social Data Science - Links
 ---
-Links for Data Science and Statistics for Social Impact
--------------------------------------------------------
-
-## Individuals and Organizations 
+Links
+-----
 
 - [http://research.microsoft.com/en-us/people/kate/](http://research.microsoft.com/en-us/people/kate/)
 - [http://research.microsoft.com/en-us/people/dmb/](http://research.microsoft.com/en-us/people/dmb/)
