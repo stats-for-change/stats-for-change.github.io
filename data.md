@@ -5,4 +5,28 @@ title: Social Data Science - Data Sources
 Data Sources
 --------------------------------
 
-This page will contain a list of public data sources related to social issues.
+Public data sources related to social issues:
+
+- __Education__
+    - [PISA](http://www.oecd.org/pisa/)<br>
+      "The PISA data consists of test results for 15 year olds across approximately 60 countries, testing at least 5000 students per country on reading, mathematics and science skills."
+    - [National Center for Educational Statistics](http://nces.ed.gov/edat/)<br>
+      Large database with downloadable data from several large studies on education in the US
+- __Human trafficking__
+    - [UN Office on Drugs and Crime](http://www.unodc.org/cld/)<br>
+      Small global database on human trafficking cases
+    - [University of Michigan: Human Trafficking Database](https://www.law.umich.edu/clinical/HuTrafficCases/Pages/searchdatabase.aspx)<br>
+      Human trafficking cases in the US.
+- __Global development__
+    - [UNDP Human Development Index](http://hdr.undp.org/en/data/profiles/)<br>
+      Huge database of International Human Development Indicator(s), Gender Inequality Index and Multidimensional Poverty Index, insearchable by country or by indicator.  Also contains great graphs and maps comparing trends over time and cross-national data.
+    - [Africa Open Data](http://africaopendata.org/)<br>
+      The Open Africa Platform initiative aims to be largest repository of Data on the Africa Continent. 
+    - [World Bank](http://data.worldbank.org/)<br>
+      Open datasets that are related to the financing and delivery of public goods, works, and services, including procurement and contracting. Also has World Development Indicators.
+    - [PeaceBuildingData](peacebuildingdata.org)
+- __Miscellaneous__
+    - [San Francisco Data](https://data.sfgov.org/)<br>
+      The Open Data Portal is is provided by the City and County of San Francisco to enhance open government, transparency, and accountability by improving access to data.
+    - [datamob.org/datasets](http://datamob.org/datasets)
+    - [datahub.io](http://datahub.io)
