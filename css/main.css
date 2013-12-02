@@ -165,6 +165,15 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+body {
+   background-image: url(/images/background.png);
+}
+
+.site {
+   margin-top: 0;
+   padding-top: 3em;
+}
+
 .site .header {
    height: 3em;
 }
@@ -230,12 +239,16 @@ a:hover {
 }
 
 div.logos {
-  margin-top: 3em;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+   margin-top: 3em;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
 }
 
 div.logos img {
-  margin: .5em;
+   margin: .5em;
+}
+
+.site .header a.extra {
+   color: #82807F;
 }
