@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Social Data Science - Projects
+all_tags: [nonprofit, great, schools]
 ---
 Projects
 --------------------------------
@@ -37,3 +38,17 @@ td, tr {
 {% endfor %}
   </tbody>
 </table>
+
+<h2>Organized by Tag</h2>
+
+{% comment %}
+Note that jekyll only populates site.tags with posts (not regular pages)
+{% endcomment %}
+{% for tag in page.all_tags %}
+ - **{{tag}}**:
+  {% for p in site.pages %}
+    {% if p.tags contains tag %}
+      <a href={{p.url}}>{{p.title | split: ' - ' | last}}</a>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
