@@ -12,8 +12,20 @@ This page contains information on some of our projects related to applying data 
 - [Stanford Center for Education Policy Analysis](/projects/stanford-cepa.html)<br>
   Analyzing small school district data
 
+<h2>As a Table</h2>
+
+<!-- Sticking style here to keep things easy to navigate -->
+<style>
+td, tr {
+  padding: 0.5em;
+}
+</style>
+
 <table>
-    <tr><th>Organization Name</th><th>Short Description</th></tr>
+  <thead>
+    <tr><th width=30%>Organization Name</th><th>Short Description</th></tr>
+  </thead>
+  <tbody>
 {% for p in site.pages %}
   {% if p.category == 'projects' %}
     {% comment %} 
@@ -23,4 +35,5 @@ This page contains information on some of our projects related to applying data 
     <tr><td><a href={{p.url}}>{{p.title | split: ' - ' | last}}</a></td><td>{{p.description}}</td></tr>
   {% endif %}
 {% endfor %}
+  </tbody>
 </table>
