@@ -1,20 +1,15 @@
 ---
 layout: default
-title: Social Data Science
+title: Social Data Analysis
 ---
-Social Data Science & Statistics
+Social Data Analysis & Statistics
 --------------------------------
+This is a collaborative portal for those interested in effecting social change through effective data analysis.
+Its purpose is to document ongoing social data analysis efforts, to summarize relevant resources and knowledge, and to connect those with technical skills and a passion for social change to organizations and individuals with pressing needs. 
 
-We are a group of students, researchers, and faculty at <a href="http://stats-for-good.stanford.edu/">Stanford</a> and <a href="http://dlab.berkeley.edu/">Berkeley</a> exploring the potential to promote social good through effective data analysis. This site organizes our findings, and some resources we have found helpful.
+If you are an organization, research group, or individual engaged in data analysis for social good, we want to hear from you!
 
-We are actively seeking coordination with other research groups, data scientists, and domain experts. To get in touch, contact [Lester Mackey](mailto:lmackey@stanford.edu).
-
-- [Projects](/projects.html)<br>Documentation of our attempts to apply statistical tools to social problems.
-- [Conversations](/conversations.html)<br>Notes on our conversations with nonprofits and other organizations.
+- Social Data Analysis Efforts
+  - [Statistics for Social Good](/stats-for-good.html)
 - [Data Sources](/data.html)<br>A list of public data sources related to social issues.
 - [Discussion Group](https://groups.google.com/forum/#!forum/ds4-social-good)<br>Feel free to introduce yourself here!
-
-<div class="logos">
-  <a href="http://stats-for-good.stanford.edu"><img src="/images/stanford.png" alt="Stanford" style="width: 100px;"/></a>
-  <a href="http://dlab.berkeley.edu"><img src="/images/d-lab.jpg" alt="D-Lab" style="width: 100px;"/></a>
-</div>
