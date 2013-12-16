@@ -1,3 +1,9 @@
+---
+layout: default
+title: Statistics for Social Good
+---
+Statistics for Social Good
+--------------------------------
 We are a group of students, researchers, and faculty at <a href="http://stats-for-good.stanford.edu/">Stanford University</a> exploring the potential to promote social good through effective data analysis. 
 This page summarizes our findings.
 To get in touch, please contact [Lester Mackey](mailto:lmackey@stanford.edu).
