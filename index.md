@@ -13,5 +13,6 @@ If you are an organization, research group, or individual engaged in data analys
   - [Statistics for Social Good at Stanford](/stats-for-good.html)
   - [D-Lab at Berkeley](http://dlab.berkeley.edu/) (external)
   - [Data Science for Social Good at Chicago](http://dssg.io/) (external)
-- [Data Sources](/data.html)<br>A list of public data sources related to social issues.
+- [Potential Partners](/partners.html)<br>Relevant organizations, with information about projects, conversations, and contacts.
+- [Data Sources](/data.html)<br>Public data sources related to social issues.
 - [Discussion Group](https://groups.google.com/forum/#!forum/ds4-social-good)<br>Feel free to introduce yourself here!

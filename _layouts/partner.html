@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h2>{{ page.partner-name }}</h2>
+
+<div class="partner-description">
+  {{ page.partner-description }}
+</div>
+
+<ul class="partner-details">
+  <li>Contact: {{ page.partner-contact }}</li>              
+  <li>Tags: {{ page.partner-tags }}</li>
+  <li>External: <a href="{{ page.partner-url }}">{{ page.partner-url }}</a></li>      
+</ul>
+
+{{ content }}
