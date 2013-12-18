@@ -7,30 +7,28 @@ Potential Partners
 
 Relevant organizations, groups, and individuals:
 
-<ul>
-{% for p in site.pages %}
-  {% if p.layout == 'partner' %}
-  
-    <li class="partner-item">
-  
-      <span class="partner-name">
-        {% if p.is-full-page %}
-          <a href="{{ p.url }}">{{ p.partner-name }}</a>
-        {% else %}
-          {{ p.partner-name }}
-        {% endif %}
-      </span>
-      
-      <br />
-      
-      {{ p.partner-description }}<br />
-      <ul>
-        <li>Contact: {{ p.partner-contact }}</li>              
-        <li>Tags: {{ p.partner-tags }}</li>
-        <li>External: <a href="{{ p.partner-url }}">{{ p.partner-url }}</a></li>      
-      </ul>
-      
-    </li>
-  {% endif %}
-{% endfor %}
-</ul>
+<table>
+  <tr>
+    <th>Name, description, and external link</th>
+    <th>Contact</th>    
+    <th>Tags</th>        
+  </tr>
+  {% for p in site.pages %}
+    {% if p.layout == 'partner' %}
+      <tr>
+        <td class="partner-name">
+          {% if p.is-full-page %}
+            <a class="partner-name" href="{{ p.url }}">{{ p.partner-name }}</a>
+          {% else %}
+            <span class="partner-name">{{ p.partner-name }}</span>
+          {% endif %}
+          <br />
+          {{ p.partner-description }}<br />
+          <a href="{{ p.partner-url }}">{{ p.partner-url }}</a>
+        </td>
+        <td class="partner-contact">{{ p.partner-contact }}</td>              
+        <td class="partner-tags">{{ p.partner-tags }}</td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+</table>
