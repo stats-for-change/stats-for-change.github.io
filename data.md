@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Social Data Science - Data Sources
-all-tags: [Development,Education,Human trafficking,Miscellaneous]
+all-data-tags: [Development,Education,Human trafficking,Miscellaneous]
 ---
 Data Sources
 --------------------------------
@@ -11,13 +11,13 @@ Public data sources related to social issues:
 {% comment %}
 Note that jekyll only populates site.tags with posts (not regular pages)
 {% endcomment %}
-{% for tag in page.all-tags %}
+{% for tag in page.all-data-tags %}
  - **{{tag}}**:
   {% for p in site.pages %}
     {% if p.layout == "data-source" %}
-     {% if p.tags contains tag %}
-       <a href={{p.url}}>{{p.name}}</a><br>
-       {{p.description}}
+     {% if p.data-tags contains tag %}
+       <a href={{p.data-url}}>{{p.data-name}}</a><br>
+       {{p.data-description}}
      {% endif %}
    {% endif %}
   {% endfor %}
