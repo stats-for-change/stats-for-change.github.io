@@ -10,7 +10,7 @@ Its purpose is to document ongoing social data analysis efforts, to summarize re
 If you are an organization, research group, or individual engaged in data analysis for social good, we want to hear from you!
 
 - Social Data Analysis Efforts
-  - [Statistics for Social Good at Stanford](http://stats-for-good.stanford.edu/)
+  - [Statistics for Social Good at Stanford](http://stats-for-good.stanford.edu/) (external)
   - [D-Lab at Berkeley](http://dlab.berkeley.edu/) (external)
   - [Data Science for Social Good at Chicago](http://dssg.io/) (external)
 - [Potential Partners](/partners.html)<br>Relevant organizations, with information about projects, conversations, and contacts.
