@@ -7,6 +7,18 @@ Data Sources
 
 Public data sources related to social issues:
 
+{% comment %}
+Note that jekyll only populates site.tags with posts (not regular pages)
+{% endcomment %}
+{% for tag in page.all_tags %}
+ - **{{tag}}**:
+  {% for p in site.pages %}
+    {% if p.tags contains tag %}
+      <a href={{p.url}}>{{p.title | split: ' - ' | last}}</a>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
 - __Education__
     - [PISA](http://www.oecd.org/pisa/)<br>
       "The PISA data consists of test results for 15 year olds across approximately 60 countries, testing at least 5000 students per country on reading, mathematics and science skills."
