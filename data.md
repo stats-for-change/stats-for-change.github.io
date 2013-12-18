@@ -14,7 +14,7 @@ Note that jekyll only populates site.tags with posts (not regular pages)
 {% for tag in page.all-tags %}
  - **{{tag}}**:
   {% for p in site.pages %}
-    {% if p.layout is "data-source" %}
+    {% if p.layout === "data-source" %}
      {% if p.tags contains tag %}
        <a href={{p.url}}>{{p.name}}</a>
        p.description
