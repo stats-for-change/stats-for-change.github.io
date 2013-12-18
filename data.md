@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Social Data Science - Data Sources
-all-data-tags: [Development,Education,Human trafficking,Miscellaneous]
+all-data-tags: [Development,Education,Homelessness,Hunger,Human trafficking,Miscellaneous,Poverty]
 ---
 Data Sources
 --------------------------------
