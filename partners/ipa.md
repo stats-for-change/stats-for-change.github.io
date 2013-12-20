@@ -2,10 +2,10 @@
 layout: partner
 title: Innovations for Poverty Action - Partners - Social Data Science
 partner-name: Innovations for Poverty Action
-partner-description: Description of IPA
-partner-url: http://partner.org
-partner-contact: <a href="mailto:john@doe.com">John Doe</a>
-partner-tags: tag1, tag2, tag3
+partner-description: Innovations for Poverty Action (IPA) applies rigorous techniques to develop, test and scale up proven solutions to real-world problems faced by the poor in developing countries.
+partner-url: http://www.poverty-action.org/
+partner-contact: <a href="mailto:lshaughnessy@poverty-action.org">Lindsey Shaughnessy</a>, Data Coordinator
+partner-tags: rct, global-development, poverty
 is-full-page: true
 ---
 
