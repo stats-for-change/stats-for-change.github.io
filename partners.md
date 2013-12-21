@@ -3,16 +3,16 @@ layout: default
 title: Social Data Science - Potential Partners
 ---
 Potential Partners
---------------------------------
+------------------
 
 Relevant organizations, groups, and individuals:
 
-<table>
-  <tr>
+<table id="partner-table" class="table table-bordered">
+  <thead>
     <th>Name, description, and external link</th>
-    <th>Contact</th>    
-    <th>Tags</th>        
-  </tr>
+    <th>Contact</th>
+    <th>Tags</th>
+  </thead>
   {% for p in site.pages %}
     {% if p.layout == 'partner' %}
       <tr>
@@ -26,9 +26,21 @@ Relevant organizations, groups, and individuals:
           {{ p.partner-description }}<br />
           <a href="{{ p.partner-url }}">{{ p.partner-url }}</a>
         </td>
-        <td class="partner-contact">{{ p.partner-contact }}</td>              
+        <td class="partner-contact">{{ p.partner-contact }}</td>
         <td class="partner-tags">{{ p.partner-tags }}</td>
       </tr>
     {% endif %}
   {% endfor %}
 </table>
+
+
+<script src="/assets/dynatable/jquery.dynatable.js"></script>
+<script>
+$('#partner-table').dynatable({
+    inputs: {
+      paginationClass: 'pagination',
+      paginationActiveClass: 'active',
+      paginationDisabledClass: 'disabled'
+    }
+});
+</script>

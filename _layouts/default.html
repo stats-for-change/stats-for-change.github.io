@@ -1,38 +1,88 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700">
-        <link rel="stylesheet" href="/assets/css/syntax.css">
-        <link rel="stylesheet" href="/assets/css/main.css">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>{{ page.title }}</title>
+    <!-- <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700"> -->
+    <!-- <link rel="stylesheet" href="/assets/css/syntax.css"> -->
+    <!-- <link rel="stylesheet" href="/assets/css/main.css"> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/dynatable/jquery.dynatable.css">
 
-    </head>
-    <body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <span class="extra">
-              <a class="extra" href="/">home</a>
-              <a class="extra" href="/partners.html">potential partners</a>
-              <a class="extra" href="/data.html">data sources</a>
-            </span>
-          </div>
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap&#45;theme.min.css"> -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                <a href="/contributors.html">Contributors</a> <a href="https://github.com/dlab-berkeley/social-data-science">
-                    On GitHub</a> <a href="mailto:lmackey@stanford.edu">Contact</a>
-              </p>
-            </div>
-          </div>
+  <body>
+    <div class="container">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">{{ site.name }}</a>
         </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li> <!-- we can figure out how to make the current page's <li>
+            class="active" and get highlighting. In this case, maybe add a
+            "home" link back? -->
+              <a href="/partners.html">potential partners</a>
+            </li>
+            <li>
+              <a href="/data.html">data sources</a>
+            </li>
+            <!-- If we wanted a dropdown, here's how -->
+            <!-- <li class="dropdown"> -->
+            <!--   <a href="#" class="dropdown&#45;toggle" data&#45;toggle="dropdown">Dropdown <b class="caret"></b></a> -->
+            <!-- <ul class="dropdown&#45;menu"> -->
+            <!--   <li><a href="#">Action</a></li> -->
+            <!--   <li><a href="#">Another action</a></li> -->
+            <!--   <li><a href="#">Something else here</a></li> -->
+            <!--   <li class="divider"></li> -->
+            <!--   <li class="dropdown&#45;header">Nav header</li> -->
+            <!--   <li><a href="#">Separated link</a></li> -->
+            <!--   <li><a href="#">One more separated link</a></li> -->
+            <!-- </ul> -->
+            <!-- </li> -->
+          </ul>
+          <!-- <ul class="nav navbar&#45;nav navbar&#45;right"> -->
+          <!--   <li class="active"><a href="./">Default</a></li> -->
+          <!--   <li><a href="../navbar&#45;static&#45;top/">Static top</a></li> -->
+          <!--   <li><a href="../navbar&#45;fixed&#45;top/">Fixed top</a></li> -->
+          <!-- </ul> -->
+        </div><!--/.nav-collapse -->
+      </div>
 
-    </body>
+      <div class="jumbotron">
+        {{ content }}
+      </div>
+
+      <div class="footer">
+        <div class="contact">
+          <p>
+            <a href="/contributors.html">Contributors</a> <a href="https://github.com/dlab-berkeley/social-data-science">
+                On GitHub</a> <a href="mailto:lmackey@stanford.edu">Contact</a>
+          </p>
+        </div>
+      </div>
+    </div><!-- container -->
+
+  </body>
 </html>
