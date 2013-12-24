@@ -4,9 +4,9 @@ title: Social Data Science - Data Sources
 all-data-tags: [Development,Education,Homelessness,Hunger,Human trafficking,Miscellaneous,Peace,Poverty]
 ---
 Data Sources
---------------------------------
+------------
 
-Public data sources related to social issues:
+Public data sources related to social issues
 
 {% comment %}
 Note that jekyll only populates site.tags with posts (not regular pages)

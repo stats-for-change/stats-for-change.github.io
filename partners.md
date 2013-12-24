@@ -5,7 +5,7 @@ title: Social Data Science - Potential Partners
 Potential Partners
 ------------------
 
-Relevant organizations, groups, and individuals:
+Relevant organizations, groups, and individuals
 
 <table id="partner-table" class="table table-bordered">
   <thead>
