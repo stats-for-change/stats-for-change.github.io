@@ -13,7 +13,6 @@ Relevant organizations, groups, and individuals
     <th>Contact</th>
     <th>Tags</th>
   </thead>
-  <!-- Note that classes below are not currently active -->
   {% for p in site.pages %}
     {% if p.layout == 'partner' %}
       <tr>

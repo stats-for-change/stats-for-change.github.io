@@ -9,41 +9,49 @@ body {
   margin-bottom: 20px;
 }
 
+
+
+/* My crappy monitor at home can't distinguish between 248 x 3 and white! */
 .jumbotron {
-  background-color: rgb(248, 248, 248);
+  /* background-color: rgb(248, 248, 248); */
+  background-color: rgb(242, 242, 242);
+  /* The default on a large layout is too much whitespace, methinks */
+  padding-top: 30px;
 }
 
-/* Dynatable makes table headers links to enable sorting, 
+/* dynatable makes table headers links to enable sorting, 
  * then jquery.dynatable.css defines "th a {color: #fff}" (white), and same for
  * hover state.
- * So, we redefine our table header links to the text color we were using
+ * so, we redefine our table header links to the text color we were using
  * previously. */
 
 th a, th a:hover {
   color:#666;
 }
 
-/* I rescued Andreas' table styling, but disabled the white text shadow, because
- * it looks bad on at least one of my monitors -DJC */
+/* i rescued andreas' table styling, but disabled the white text shadow, because
+ * it looks bad on at least one of my monitors. otherwise, i didn't mess with
+ * this much, though there's probably some stuff that's redundant with bootstrap
+ * now. -djc */
 
-/*****************************************************************************/
-/*
-/* Table of potential partners
-/* based on http://johnsardine.com/freebies/dl-html-css/simple-little-tab/
-/*
-/*****************************************************************************/
+/*****************************************************************************
+ *
+ * table of potential partners
+ * based on http://johnsardine.com/freebies/dl-html-css/simple-little-tab/
+ *
+ *****************************************************************************/
 
 table a.partner-name, table span.partner-name {
    font-weight: bold;
 }
 
-.site table td {
-  padding: .7em;
-}
+/* .site table td { */
+/*   padding: .7em; */
+/* } */
 
-th {
-  padding-bottom: 1em;
-}
+/* th { */
+/*   padding-bottom: 1em; */
+/* } */
 
 td.partner-name {
   width: 60%;
@@ -59,81 +67,214 @@ td.partner-tags {
 
 table {
   font-size: .8em;
-  color:#666;
-  /* text-shadow: 1px 1px 0px #fff; */
-  background:#eaebec;
-  border:#ccc 1px solid;
+/*   color:#666; */
+/*   text-shadow: 1px 1px 0px #fff; */
+/*   background:#eaebec; */
+/*   border:#ccc 1px solid; */
+/*  */
+/*   -moz-border-radius:3px; */
+/*   -webkit-border-radius:3px; */
+/*   border-radius:3px; */
+/*  */
+/*   -moz-box-shadow: 0 1px 2px #d1d1d1; */
+/*   -webkit-box-shadow: 0 1px 2px #d1d1d1; */
+/*   box-shadow: 0 1px 2px #d1d1d1; */
+}
 
-  -moz-border-radius:3px;
-  -webkit-border-radius:3px;
-  border-radius:3px;
+/* table th { */
+/*   padding:21px 25px 22px 25px; */
+/*   border-top:1px solid #fafafa; */
+/*   border-bottom:1px solid #e0e0e0; */
+/*  */
+/*   background: #ededed; */
+/*   background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb)); */
+/*   background: -moz-linear-gradient(top,  #ededed,  #ebebeb); */
+/* } */
 
-  -moz-box-shadow: 0 1px 2px #d1d1d1;
-  -webkit-box-shadow: 0 1px 2px #d1d1d1;
-  box-shadow: 0 1px 2px #d1d1d1;
-}
-table th {
-  padding:21px 25px 22px 25px;
-  border-top:1px solid #fafafa;
-  border-bottom:1px solid #e0e0e0;
+/* table th:first-child { */
+/*   text-align: left; */
+/*   padding-left:20px; */
+/* } */
 
-  background: #ededed;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
-  background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
-}
-table th:first-child {
-  text-align: left;
-  padding-left:20px;
-}
-table tr:first-child th:first-child {
-  -moz-border-radius-topleft:3px;
-  -webkit-border-top-left-radius:3px;
-  border-top-left-radius:3px;
-}
-table tr:first-child th:last-child {
-  -moz-border-radius-topright:3px;
-  -webkit-border-top-right-radius:3px;
-  border-top-right-radius:3px;
-}
-table tr {
-  text-align: center;
-  padding-left:20px;
-}
-table td:first-child {
-  text-align: left;
-  padding-left:20px;
-  border-left: 0;
-}
-table td {
-  padding:18px;
-  border-top: 1px solid #ffffff;
-  border-bottom:1px solid #e0e0e0;
-  border-left: 1px solid #e0e0e0;
+/* table tr:first-child th:first-child { */
+/*   -moz-border-radius-topleft:3px; */
+/*   -webkit-border-top-left-radius:3px; */
+/*   border-top-left-radius:3px; */
+/* } */
+/* table tr:first-child th:last-child { */
+/*   -moz-border-radius-topright:3px; */
+/*   -webkit-border-top-right-radius:3px; */
+/*   border-top-right-radius:3px; */
+/* } */
+/* table tr { */
+/*   text-align: center; */
+/*   padding-left:20px; */
+/* } */
+/* table td:first-child { */
+/*   text-align: left; */
+/*   padding-left:20px; */
+/*   border-left: 0; */
+/* } */
+/* table td { */
+  /* padding:18px; */
+  /* border-top: 1px solid #ffffff; */
+  /* border-bottom:1px solid #e0e0e0; */
+  /* border-left: 1px solid #e0e0e0; */
 
-  background: #fafafa;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
-  background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+  /* background: #fafafa; */
+/*   background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa)); */
+/*   background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa); */
+/* } */
+/* table tr.even td { */
+/*   background: #f6f6f6; */
+/*   background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6)); */
+/*   background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6); */
+/* } */
+/* table tr:last-child td { */
+/*   border-bottom:0; */
+/* } */
+/* table tr:last-child td:first-child { */
+/*   -moz-border-radius-bottomleft:3px; */
+/*   -webkit-border-bottom-left-radius:3px; */
+/*   border-bottom-left-radius:3px; */
+/* } */
+/* table tr:last-child td:last-child { */
+/*   -moz-border-radius-bottomright:3px; */
+/*   -webkit-border-bottom-right-radius:3px; */
+/*   border-bottom-right-radius:3px; */
+/* } */
+/* table tr:hover td { */
+/*   background: #f2f2f2; */
+/*   background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0)); */
+/*   background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);   */
+/* } */
+
+/* Here I generaly got rid of styling that affected spacing, as bootstrap
+ * already does a good job with that. Note also that this entire file is now
+ * basically "Modifications" - so the heading here makes a little less sense...
+ * -DJC */
+
+/*****************************************************************************
+ *
+ * Modifications
+ *
+ *****************************************************************************/
+
+/* Not using this as it seems to just be a patch of uniform color */
+/* body { */
+/*    background-image: url(/images/background.png); */
+/* } */
+
+/* .site { */
+/*    margin-top: 0; */
+/*    padding-top: 3em; */
+/* } */
+
+/* .site .header { */
+/*    height: 3em; */
+/* } */
+
+.site .header h1.title {
+   /* margin-bottom: 2em; */
+   font-family: 'Montserrat Alternates', sans-serif;
+   /* float: left; */
 }
-table tr.even td {
-  background: #f6f6f6;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
-  background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+
+h2 {
+   /* font-size: 1.5em; */
+   /* margin-bottom: 1em; */
+   font-family: 'Montserrat Alternates', sans-serif;
+   /* margin-top: 1.5em; */
+   color: #444;
+   /* font-size: 30px; */
+   /* font-weight: 500; */
 }
-table tr:last-child td {
-  border-bottom:0;
+
+.site .footer {
+   margin-top: 3em;
 }
-table tr:last-child td:first-child {
-  -moz-border-radius-bottomleft:3px;
-  -webkit-border-bottom-left-radius:3px;
-  border-bottom-left-radius:3px;
+
+/* .contact a { */
+/*    margin-right: .5em; */
+/* } */
+
+div.footer .contact {
+   width: 100%;
+   text-align: center;
 }
-table tr:last-child td:last-child {
-  -moz-border-radius-bottomright:3px;
-  -webkit-border-bottom-right-radius:3px;
-  border-bottom-right-radius:3px;
+
+/* div.contact a { */
+/*    margin-right: .5em; */
+/* } */
+
+.site p {
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   color: #333;
 }
-table tr:hover td {
-  background: #f2f2f2;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
-  background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);  
+
+/* .site li { */
+/*    margin-top: .4em */
+/* } */
+
+.site .header span.extra {
+   float: right;
+   font-family: 'Montserrat Alternates', sans-serif;
 }
+
+/* .site .header span.extra a { */
+/*    font-weight: normal; */
+/* } */
+
+a, a:visited {
+   color: #009;
+}
+
+/* Note that this is overridden in the table headers, which I think is
+ * appropriate (we get no other signal that they are clickable, I prefer
+ * underline to a color change there - it's more noticeable. But, I admit it's
+ * less consistent with the navbar link behavior */
+
+a:hover {
+   text-decoration: none;
+   color: #009;
+}
+
+/* .site li ul { */
+/*    margin-left: 2em; */
+/* } */
+
+/* We don't actually have any logos now... */
+
+/* div.logos { */
+/*    margin-top: 3em; */
+/*    margin-left: auto; */
+/*    margin-right: auto; */
+/*    text-align: center; */
+/* } */
+
+/* div.logos img { */
+/*    margin: .5em; */
+/* } */
+
+/* .site .header a.extra { */
+/*    color: #82807F; */
+/* } */
+
+/* .site div.partner-description { */
+/*    margin-bottom: 1em; */
+/* } */
+/*  */
+/* .site ul.partner-details { */
+/*    margin-bottom: 1em; */
+/* } */
+
+.site h3 {
+   /* margin-top: 1.5em; */
+   /* font-size: 1.2em; */
+   font-family: 'Montserrat Alternates', sans-serif;
+   color: #666;
+}
+
+/* h3 { */
+/*    margin-bottom: .75em */
+/* } */
