@@ -5,7 +5,7 @@ partner-name: Innovations for Poverty Action
 partner-description: Innovations for Poverty Action (IPA) applies rigorous techniques to develop, test and scale up proven solutions to real-world problems faced by the poor in developing countries.
 partner-url: http://www.poverty-action.org/
 partner-contact: <a href="mailto:lshaughnessy@poverty-action.org">Lindsey Shaughnessy</a>, Data Coordinator
-partner-tags: rct, global-development, poverty
+partner-tags: rct, global-development, poverty, randomized-control-trials
 is-full-page: true
 ---
 
