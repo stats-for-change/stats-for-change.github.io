@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Social Data Analysis
+title: Statistics for Social Change
 ---
-Social Data Analysis & Statistics
+Statistics for Social Change
 --------------------------------
 This is a collaborative portal for those interested in effecting social change through effective data analysis.
 Its purpose is to document ongoing social data analysis efforts, summarize relevant resources and knowledge, and connect those with technical skills and a passion for social change to organizations and individuals with pressing needs. 
