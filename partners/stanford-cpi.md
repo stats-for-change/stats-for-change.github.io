@@ -12,6 +12,3 @@ is-full-page: true
 <h3>Conversations</h3>
 
 - [Meeting on October 11, 2013](https://www.evernote.com/shard/s76/sh/b2d532d6-d7e1-430e-875d-3b0c5ed1c0a5/5b89121ebece7634dbc66775bc488857)
-    - Dave Grusky
-    - Charles Varner
-    - Lester Mackey
