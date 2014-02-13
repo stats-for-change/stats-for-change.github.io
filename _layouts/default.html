@@ -7,11 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>{{ page.title }}</title>
-    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700">
 
-
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-    <!-- JSpkg is apparently working on a CDN that could eventually serve this -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
     <link rel="stylesheet" href="/assets/dynatable/jquery.dynatable.css">
 
     <!-- Our styles and overrides -->
@@ -29,7 +26,7 @@
 
   <body>
     <div class="container">
-      <div class="navbar navbar-default" role="navigation">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -43,16 +40,16 @@
             <li> <!-- we can figure out how to make the current page's <li>
             class="active" and get highlighting. In this case, maybe add a
             "home" link back? -->
-              <a href="/partners.html">potential partners</a>
+              <a href="/partners.html">Potential Partners</a>
             </li>
             <li>
-              <a href="/data.html">data sources</a>
+              <a href="/data.html">Data Sources</a>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
 
-      <div class="jumbotron">
+      <div class="container-fluid">
         {{ content }}
       </div>
 
