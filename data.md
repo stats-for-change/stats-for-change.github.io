@@ -6,7 +6,7 @@ all-data-tags: [Development,Education,Homelessness,Hunger,Human trafficking,Misc
 Data Sources
 ------------
 
-Public data sources related to social issues
+<p class="lead">Public data sources related to social issues</p>
 
 {% comment %}
 Note that jekyll only populates site.tags with posts (not regular pages)
