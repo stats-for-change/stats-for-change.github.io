@@ -41,6 +41,9 @@ $('#partner-table').dynatable({
       paginationClass: 'pagination',
       paginationActiveClass: 'active',
       paginationDisabledClass: 'disabled'
+    },
+    features: {
+      paginate: false
     }
 });
 </script>
