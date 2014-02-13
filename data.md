@@ -12,7 +12,7 @@ Data Sources
 Note that jekyll only populates site.tags with posts (not regular pages)
 {% endcomment %}
 {% for tag in page.all-data-tags %}
- - **{{tag}}**:
+ - **{{tag}}**
   {% for p in site.pages %}
     {% if p.layout == "data-source" %}
      {% if p.data-tags contains tag %}
