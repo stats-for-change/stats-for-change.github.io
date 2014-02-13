@@ -2,17 +2,22 @@
 layout: default
 title: SDS Contributors
 ---
-[@davclark](https://github.com/davclark) is excited for
-the next person to submit a pull request for this page!
+Contributors
+------------
 
-[@lmackey](https://github.com/lmackey)
+<p class="lead">People who helped create this portal</p>
 
-[@stuhlmueller](https://github.com/stuhlmueller)
+### Groups
 
-[@henrycg](http://www.henrycg.com/)
+- [Statistics for Social Good at Stanford](http://stats-for-good.stanford.edu/)
+- [D-Lab at Berkeley](http://dlab.berkeley.edu/)
 
-[@cfgranda](https://github.com/cfgranda)
+### Individuals
 
-[@zfzf21](https://github.com/zfzf21)
-
-[@suzannetamang](https://github.com/suzannetamang)
+- [@davclark](https://github.com/davclark)
+- [@lmackey](https://github.com/lmackey)
+- [@stuhlmueller](https://github.com/stuhlmueller)
+- [@henrycg](http://www.henrycg.com/)
+- [@cfgranda](https://github.com/cfgranda)
+- [@zfzf21](https://github.com/zfzf21)
+- [@suzannetamang](https://github.com/suzannetamang)
