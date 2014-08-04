@@ -6,6 +6,7 @@ partner-description: Understanding the value of feedback from beneficiaries; con
 partner-url: http://greatnonprofits.org
 partner-contact: <a href="http://greatnonprofits.org/contact-us">Web form</a>
 partner-tags: meta-charity, ratings
+project output: <a href="http://www.ssireview.org/blog/entry/the_surprising_truth_behind_beneficiary_feedback"Article published on Stanford Social Innovation Review</a>
 is-full-page: true
 ---
 
