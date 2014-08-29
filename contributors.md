@@ -22,3 +22,4 @@ Contributors
 - [@zfzf21](https://github.com/zfzf21)
 - [@suzannetamang](https://github.com/suzannetamang)
 - [@shuo-xie](https://github.com/shuo-xie)
+- [@krisrs1128](https://github.com/krisrs1128)
