@@ -2,9 +2,9 @@
 layout: partner
 title: SparkPoint - Partners - Social Data Science
 partner-name: SparkPoint
-partner-description: SparkPoint is a San Francisco based anti-poverty organization offering a range of services -- including financial planning, tax preparation, and help applying to jobs -- to its clients.
+partner-description: SparkPoint is a San Francisco based anti-poverty organization offering a range of services -- including financial planning, tax preparation, and help applying to jobs -- for its clients.
 partner-url: http://sparkpointcenters.org/
-partner-contact: <a href="http://sparkpointcenters.org/contact">Phone numbers, by location</a>
+partner-contact: <a href="sparkpoint@uwba.org">Email</a>
 partner-tags: poverty
 is-full-page: true
 ---
