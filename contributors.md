@@ -14,9 +14,9 @@ Contributors
 
 ### Individuals
 
-- [@davclark](https://github.com/davclark)
 - [@lmackey](https://github.com/lmackey)
 - [@stuhlmueller](https://github.com/stuhlmueller)
+- [@davclark](https://github.com/davclark)
 - [@henrycg](http://www.henrycg.com/)
 - [@cfgranda](https://github.com/cfgranda)
 - [@zfzf21](https://github.com/zfzf21)
